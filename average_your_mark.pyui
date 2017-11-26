@@ -1,0 +1,126 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{52, 39}, {150, 39}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{220, 272}, {150, 32}}",
+          "uuid" : "72BDC34B-C929-4DD9-B63A-54A1EE218353",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter your mark:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{278, 46}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "mark_textfield",
+          "frame" : "{{195, 272}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "516EF031-F515-4BBD-9751-A6D0940F90EB",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{80, 105}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "click_button_touch_up_inside",
+          "frame" : "{{255, 272}, {80, 32}}",
+          "title" : "CLICK",
+          "uuid" : "86224620-052C-4C9D-BC89-0288479EA1D1",
+          "class" : "Button",
+          "name" : "click_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{52, 164}, {190, 319}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "mark_textview",
+          "editable" : true,
+          "frame" : "{{195, 188}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "EDF51587-7E97-4FB0-B027-27110C015BCC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{361, 171}, {124, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "average_button_touch_up_inside",
+          "frame" : "{{255, 272}, {80, 32}}",
+          "title" : "AVERAGE",
+          "uuid" : "78C267A4-FD04-4D83-948F-2B39FCEA971C",
+          "class" : "Button",
+          "name" : "average_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{291, 265}, {272, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "result_label",
+          "frame" : "{{220, 272}, {150, 32}}",
+          "uuid" : "DCD1F371-AE2E-4190-8C46-4F0ACFFD5DD3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {590, 576}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
